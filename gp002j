@@ -1,0 +1,12 @@
+set terminal jpeg
+#set terminal postscript "Helvetica" 24 color eps enhanced
+set xlabel "{/Italic t}"
+set ylabel "{/Italic f(t)}"
+# set nokey  # これを含めると，凡例が表示されない．
+set style line 1 lt 1 lc 1 lw 5    # 線や点の太さの定義
+set style line 2 lt 1 lc 2 lw 5
+set style line 3 lt 1 lc 3 lw 5
+set style line 4 lt 1 lc 4 lw 5
+set style line 5 lt 1 lc 5 lw 5
+plot [-6:6][:] "d001.dat" using 1:2 title "N=1" with lines linestyle 1,\
+"d003.dat" using 1:2 title "N=100"  with lines linestyle 4

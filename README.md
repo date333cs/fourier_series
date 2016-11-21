@@ -9,3 +9,5 @@ Computer exercises for learning fourier series
  ` $ evince f001.eps`      
 
 - [f002.c](f002.c), [gp002](gp002)
+
+<img src="https://github.com/date333cs/fourier_series/blob/master/f003.jpg" height="220px" align="left">
